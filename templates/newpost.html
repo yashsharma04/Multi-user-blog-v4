@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+  
+
+     <h2>New Post</h2>
+      <div class='cont'>
+        <form method='post'>
+            <div class="ui form">
+              <div class="field">
+                <label>Subject:</label>
+                  <input type="text" class="form-control" id="subject" name='subject' placeholder="Subject" value="{{subject}}">
+              </div>
+              <div class="field">
+                <label for="content">Content:</label>
+                <textarea class="form-control" rows="5" id="content" name='content' placeholder="Content"></textarea>
+              </div>
+            <div class="error">{{error}}</div>
+            <input type='submit' class='ui primary basic button'>
+            </div>
+        </form>
+      </div>
+
+{% endblock %}
+
+
+
+
+

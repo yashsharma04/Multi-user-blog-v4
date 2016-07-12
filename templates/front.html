@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<!-- <input type='submit' class="btn btn-primary overwrite" onclick="func()" value='Add Post'/> -->
+	<input type='submit' style='margin-bottom: 15px;' class="ui primary basic button overwrite" onclick="func()" value='Add Post'/>
+  {% for p in posts %}
+    {{ p.render() | safe }}
+    <br><br>
+  {% endfor %}
+
+{% endblock %}
