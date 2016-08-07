@@ -1,5 +1,5 @@
 # MultiUserBlog
-App running at https://v3-dot-blog-1361.appspot.com/
+
 
 ##Project Description
 A Multi user blog  where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. This app is hosted on  Google App Engine (GAE) and an authentication system is used for users to be able to register and sign in and then create blog posts!!
